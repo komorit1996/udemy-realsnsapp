@@ -1,0 +1,102 @@
+.login {
+  /* 背景画像をいっぱいに表示 */
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(236, 241, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.loginRight {
+  flex: 6;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLeft {
+  flex: 6;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(118, 69, 164);
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  justify-items: center;
+}
+
+.loginDesc {
+  font-size: 18px;
+}
+
+.loginBox {
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: -1px 2px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.loginInput {
+  height: 50px;
+  border-radius: 10px;
+  border: solid gray 1px;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-bottom: 1px;
+}
+
+.loginInput:forcus {
+  outline: none;
+}
+
+.loginButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.forgotPw {
+  text-align: center;
+  color: blueviolet;
+  margin: 5px 15px;
+}
+
+.loginRegisterButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 60%;
+  align-self: center;
+  background-color: green;
+}
+
+.loginMessage {
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
